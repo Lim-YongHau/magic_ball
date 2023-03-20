@@ -39,7 +39,7 @@ class _BallState extends State<Ball> {
   void changeBallNumber() {
     setState(() {
       ballNumber = Random().nextInt(5) + 1;
-      print(ballNumber);
+      print("ball$ballNumber");
     });
   }
 
